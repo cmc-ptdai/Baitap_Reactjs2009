@@ -27,4 +27,5 @@ class Exercise2 extends React.Component {
     )
   }
 }
+
 export default Exercise2;
