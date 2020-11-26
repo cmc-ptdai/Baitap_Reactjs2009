@@ -11,6 +11,7 @@ class Exercise2 extends React.Component {
           <p>0% complete</p>
         </div>
         <hr></hr>
+
         <div className="content">
           <span>What is the full form of HTTP?</span>
           <p>a.Hyper text transfer package</p>
@@ -19,6 +20,7 @@ class Exercise2 extends React.Component {
           <p>d.None of the above</p>
         </div>
         <hr></hr>
+        
         <div className="footer">
           <button className="btn_left">Back</button>
           <button className="btn_right">Skip</button>
