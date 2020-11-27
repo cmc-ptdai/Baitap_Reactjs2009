@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quiz {
+    width: 500px;
+    height: 444px;
+    background-color: #f4f4f4;
+    margin: auto;
+    border: 1px solid #b7b7b7;
+    border-radius: 10px;
+}
+.title {
+    text-align: center;
+    padding: 25px 0px 15px 0px;
+}
+.title .bar {
+    margin: auto;
+    width: 160px;
+    height: 13px;
+    background-color: #808080;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content {
+    background-color: #fafafa;
+    height: 250px;
+    padding-left: 5%;
+}
+.content p {
+    text-align: left;
+    width: 90%;
+    height: 32px;
+    margin: 14px 0px;
+    border-radius: 20px;
+    background-color: #ededed;
+    padding-left: 15px;
+    line-height: 30px;
+}
+.content span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    margin: 12px 0px;
+}
+.footer {
+    position: relative;
+    background-color: #f4f4f4;
+}
+.footer .btn_left {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    border: 1px solid #b7b7b7;
+    border-radius: 30px;
+    width: 65px;
+    height: 30px;
+}
+.footer .btn_right {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: 1px solid #b7b7b7;
+    border-radius: 30px;
+    width: 65px;
+    height: 30px;
+}
