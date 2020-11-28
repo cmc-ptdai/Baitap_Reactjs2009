@@ -1,5 +1,6 @@
 // eslint-disable-next-line
 import React from 'react';
+import ItemA from './ItemA'
 
 class ItemLi extends React.Component {
   render() {
@@ -7,32 +8,16 @@ class ItemLi extends React.Component {
     return (
       <>
         { 
-          childrenData.map((child, index) => {
+          childrenData.map((child,index) => {
             if (child.isActive) {
               return <li key={index} className="active">
-                        <a href={child.link}>
-                          <div className="icon">
-                            <i className={child.icon}></i>
-                          </div>
-                          <div className="text">
-                            <b>{child.title}</b>
-                            <p>{child.subTitle}</p>
-                          </div>
-                        </a>
+                        <ItemA dataLink={child}/>
                         {child.children && <ul> <ItemLi childrenData={child.children}/> </ul>}
                      </li>
             } else {
               return <li key={index}>
-                        <a href={child.link}>
-                          <div className="icon">
-                            <i className={child.icon}></i>
-                          </div>
-                          <div className="text">
-                            <b>{child.title}</b>
-                            <p>{child.subTitle}</p>
-                          </div>
-                        </a>
-                        {child.children && <ul><ItemLi childrenData={child.children}/></ul>}
+                        <ItemA dataLink={child}/>
+                        {child.children && <ul> <ItemLi childrenData={child.children}/> </ul>}
                      </li>
             }
           })
