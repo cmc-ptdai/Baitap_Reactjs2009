@@ -10,6 +10,7 @@ class ItemA extends React.Component {
           <div className="icon">
             <i className={dataLink.icon}></i>
           </div>
+
           <div className="text">
             <b>{dataLink.title}</b>
             <p>{dataLink.subTitle}</p>

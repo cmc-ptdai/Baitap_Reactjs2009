@@ -22,6 +22,7 @@ a {
     margin-left: 50px;
     margin-top: 50px;
 }
+
 /* Search */
 .search {
     position: relative;
@@ -50,6 +51,7 @@ a {
     color: #ffffff;
     background-color: #d8823b;
 }
+
 /* Menu parent */
 #parent > li > a {
     position: relative;
@@ -73,6 +75,7 @@ a {
     margin-left: 200px;
     top: 0;
 }
+
 /* Menu child */
 #parent > li > ul a {
     display: flex;
