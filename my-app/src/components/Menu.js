@@ -91,7 +91,7 @@ class Menu extends React.Component {
           link: '/contacts',
           icon: 'far fa-envelope',
         }
-      ],
+      ]
     }
   }
   

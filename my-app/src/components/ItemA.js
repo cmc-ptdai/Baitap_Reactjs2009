@@ -3,7 +3,8 @@ import React from 'react';
 
 class ItemA extends React.Component {
   render() {
-  const {dataLink} = this.props
+    const {dataLink} = this.props
+
     return (
       <>
         <a href={dataLink.link}>
