@@ -4,8 +4,8 @@ class Header extends React.Component {
   render() {
     return (
       <>
-        <div className="todo__app">
-            <h1>Todo App</h1>
+        <div>
+            <h1>React Todo App</h1>
         </div>
       </>
     )

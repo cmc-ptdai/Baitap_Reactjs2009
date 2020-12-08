@@ -1,3 +1,10 @@
 .todo__app {
-    color: red;
+    .tag-active {
+        color: red; 
+        font-weight: 800;
+    }
+    .list {
+        border: 1px solid #ccc;
+        padding-left: 10px;
+    }
 }
